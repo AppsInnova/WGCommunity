@@ -1,0 +1,2 @@
+# WGCommunity
+The WeGamers embedded community has provided mobile players with a powerful and easy-to-access community. Players do not require another platform or need to stay in-game to continue chatting with other players; they can do so via WeGamers. For the operation work, WeGamers can also be used to gather feedback or post news about events, etc. easily. All of this can be done with a few hours of work with this SDK. Your game(s) will offer a better service and all of this is free.
