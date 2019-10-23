@@ -6,15 +6,12 @@ The WeGamers embedded community has provided mobile players with a powerful and 
 Simply add the repository to your build.gradle file:
 
 repositories {
-    
     maven {
         url "https://raw.githubusercontent.com/AppsInnova/WGCommunity/master/"
     }
-
 }
 
 dependencies {
-
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     api 'com.appsinnova.wegamers:community:1.0'
 
