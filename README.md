@@ -6,17 +6,14 @@ The WeGamers embedded community has provided mobile players with a powerful and 
 Simply add the repository to your build.gradle file:
 
 repositories {
-
-    maven {
+	maven {
         url "https://raw.githubusercontent.com/AppsInnova/WGCommunity/master/"
     }
-
 }
 
 dependencies {
-
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    api 'com.appsinnova.wegamers:community:1.0'
+	implementation fileTree(include: ['*.jar'], dir: 'libs')
+	api 'com.appsinnova.wegamers:community:1.0'
 
     //other public libraries
     implementation 'com.android.support:appcompat-v7:28.0.0'
@@ -31,13 +28,10 @@ dependencies {
 }
 
 API use:
-
 Please check the official website: http://www.wegamers.com/sdk
 
 # Author
-
 zhenyang.Lin,lzy1945@gmail.com
 
 # License
-
 WGCommunity is available under the MIT license. See the LICENSE file for more info.
