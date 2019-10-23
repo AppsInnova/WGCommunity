@@ -7,24 +7,24 @@ Simply add the repository to your build.gradle file:
 
 repositories {
     maven {
-       url "https://raw.githubusercontent.com/AppsInnova/WGCommunity/master/"
+        url "https://raw.githubusercontent.com/AppsInnova/WGCommunity/master/"
     }
 }
-
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    api 'com.appsinnova.wegamers:community:1.0'
-
-    //other public libraries
     implementation 'com.android.support:appcompat-v7:28.0.0'
+    //Retrofit
     implementation ('com.squareup.retrofit2:converter-gson:2.2.0'){
         exclude group: 'com.squareup.okhttp3'
     }
     implementation 'com.squareup.retrofit2:adapter-rxjava:2.2.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    //Rxjava
     implementation 'io.reactivex:rxandroid:1.2.0'
+    //Dagger
     implementation 'com.google.dagger:dagger:2.2'
     implementation 'org.greenrobot:eventbus:3.0.0'
+
+    api 'com.appsinnova.wegamers:community:1.0'
 }
 
 API use:
