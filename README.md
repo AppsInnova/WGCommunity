@@ -7,9 +7,10 @@ Simply add the repository to your build.gradle file:
 
 repositories {
     maven {
-        url "https://raw.githubusercontent.com/AppsInnova/WGCommunity/master/"
+        url 'https://raw.githubusercontent.com/AppsInnova/WGCommunity/master/'
     }
 }
+
 dependencies {
     implementation 'com.android.support:appcompat-v7:28.0.0'
     //Retrofit
