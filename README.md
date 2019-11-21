@@ -24,7 +24,7 @@ dependencies {
         exclude group: 'com.squareup.okhttp3'
     }
     implementation 'com.squareup.retrofit2:adapter-rxjava:2.2.0'
-    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.1'
     //Rxjava
     implementation 'io.reactivex:rxandroid:1.2.0'
     //Dagger
